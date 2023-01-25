@@ -1,0 +1,590 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Header */
+
+.header-base {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 99px;
+    padding-left: 40px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    z-index: 999999;
+}
+
+#logoStarbucks {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.header-base ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-base li {
+    margin-top: 35px;
+    margin-left: 30px;
+    color: #32312d;
+}
+
+#starbucks-history {
+    margin-top: 5px;
+    width: 120px;
+    height: 90px;
+    margin-left: 50em;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#encontre-loja {
+    margin-top: 37px;
+    margin-left: 15px;
+    color: #32312d;
+    cursor: pointer;
+}
+
+#entrar-btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #32312d;
+    color: #32312d;
+    font-size: 17px;
+    background-color: transparent;
+    margin-top: 35px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+#participe-btn {
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #32312d;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    background-color: #32312d;
+    margin-top: 32px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.header-base li:hover {
+    color: rgb(1, 139, 1);
+    cursor: pointer;
+}
+
+#entrar-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+#participe-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+/* Section */
+
+.container-forx {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 420px;
+}
+
+.slideshow-base {
+    display: flex;
+    width: 1440px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.slideshow {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+#banner {
+    width: 1440px;
+    height: 420px;
+    object-fit: cover;
+}
+
+.container-alfa {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 191px;
+}
+
+.container-bravo {
+    width: 1440px;
+    height: 191px;
+    background-color: #d4e9e2;
+}
+
+.container-bravo p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    color: #1e3932;
+}
+
+.button-alfa {
+    width: 1440px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#saiba-mais-btn {
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #1e3932;
+    color: #1e3932;
+    font-size: 17px;
+    background-color: transparent;
+    margin-top: 35px;
+    margin-left: 39em;
+    transition: 0.3s;
+}
+
+#saiba-mais-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+.container-charlie {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 619px;
+    margin-top: 30px;
+}
+
+.container-delta {
+    display: flex;
+    width: 1440px;
+    height: 619px;
+    background-color: #d4e9e2;
+}
+
+.container-delta h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 100px;
+    color: #1e3932;
+}
+
+.container-delta p {
+    text-align: center;
+    font-size: 20px;
+    color: #1e3932;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#charlie-button {
+    width: 430px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #1e3932;
+    color: #1e3932;
+    font-size: 17px;
+    background-color: transparent;
+    margin-left: 145px;
+    margin-top: 35px;
+    transition: 0.3s;
+}
+
+#charlie-button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+.container-echo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 385px;
+    margin-top: 30px;
+}
+
+.container-golf {
+    width: 720px;
+    height: 385px;
+    background-color: #d4e9e2;
+}
+
+#refrescos {
+    width: 720px;
+    height: 385px;
+}
+
+.container-golf h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 150px;
+    color: #1e3932;
+}
+
+.container-golf p {
+    text-align: center;
+    font-size: 19px;
+    color: #1e3932;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#golf-button {
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #1e3932;
+    color: #1e3932;
+    font-size: 17px;
+    background-color: transparent;
+    margin-top: 35px;
+    margin-left: 17em;
+    transition: 0.3s;
+}
+
+#golf-button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+.container-hotel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 403px;
+    margin-top: 30px;
+}
+
+.container-india {
+    display: flex;
+    width: 1440px;
+    height: 403px;
+    background-color: #d4e9e2;
+}
+
+#trabalhadores {
+    width: 720px;
+    height: 403px;
+}
+
+.container-hotel h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 140px;
+    color: #1e3932;
+}
+
+.container-hotel p {
+    text-align: center;
+    font-size: 19px;
+    color: #1e3932;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#hotel-button {
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #1e3932;
+    color: #1e3932;
+    font-size: 17px;
+    background-color: transparent;
+    margin-top: 35px;
+    margin-left: 17.5em;
+    transition: 0.3s;
+}
+
+#hotel-button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+.container-juliet {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 403px;
+    margin-top: 30px;
+}
+
+.container-kilo {
+    display: flex;
+    width: 720px;
+    height: 403px;
+    background-color: #d4e9e2;
+}
+
+#atendentes {
+    width: 720px;
+    height: 403px;
+}
+
+.container-juliet h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 140px;
+    color: #1e3932;
+}
+
+.container-juliet p {
+    text-align: center;
+    font-size: 19px;
+    color: #1e3932;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#juliet-button {
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #1e3932;
+    color: #1e3932;
+    font-size: 17px;
+    background-color: transparent;
+    margin-top: 35px;
+    margin-left: 16em;
+    transition: 0.3s;
+}
+
+#juliet-button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+
+.footer-area {
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+    box-shadow: 0px -7px 4px -5px rgba(0,0,0,0.1);
+}
+
+.geral-area {
+    position: absolute;
+    display: flex;
+    width: 85%;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 9em;
+}
+
+.card-1 {
+    width: 180px;
+    height: 450px;
+}
+
+.card-1 h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #32312d;
+}
+
+.card-1 ul {
+    list-style: none;
+    font-size: 15px;
+    color: #7c7c7c;
+    margin-top: 30px;
+}
+
+.card-1 li {
+    margin-top: 20px;
+}
+
+.card-2 {
+    width: 180px;
+    height: 450px;
+    margin-left: 32px;
+}
+
+.card-2 h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #32312d;
+}
+
+.card-2 ul {
+    list-style: none;
+    font-size: 15px;
+    color: #7c7c7c;
+    margin-top: 30px;
+}
+
+.card-2 li {
+    margin-top: 20px;
+}
+
+.card-3 {
+    width: 180px;
+    height: 450px;
+    margin-left: 32px;
+}
+
+
+.card-3 h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #32312d;
+}
+
+.card-3 ul {
+    list-style: none;
+    font-size: 15px;
+    color: #7c7c7c;
+    margin-top: 30px;
+}
+
+.card-3 li {
+    margin-top: 20px;
+}
+
+.card-4 {
+    width: 180px;
+    height: 450px;
+    margin-left: 32px;
+}
+
+
+.card-4 h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #32312d;
+}
+
+.card-4 ul {
+    list-style: none;
+    font-size: 15px;
+    color: #7c7c7c;
+    margin-top: 30px;
+}
+
+.card-4 li {
+    margin-top: 20px;
+}
+
+.card-5 {
+    width: 180px;
+    height: 450px;
+    margin-left: 32px;
+}
+
+#starbucks-history-footer {
+    width: 120px;
+    cursor: pointer;
+}
+
+#list-footer:hover {
+    cursor: pointer;
+    color: #141414;
+}
+
+hr {
+    position: absolute;
+    width: 85%;
+    margin-top: 35em;
+    margin-left: 9em;
+}
+
+.last-contain {
+    display: flex;
+    position: absolute;
+    width: 85%;
+    height: 33px;
+    margin-left: 9em;
+    margin-top: 38em;
+}
+
+#icons {
+    margin-left: 20px;
+}
+
+#icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#icons:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.regs {
+    position: absolute;
+    width: 85%;
+    height: 20px;
+    margin-left: 9em;
+    margin-top:42em;
+}
+
+.regs ul {
+    display: flex;
+    list-style: none;
+    color: #32312d;
+}
+
+.regs #termos {
+    margin-left: 20px;
+}
+
+#termo:hover {
+    cursor: pointer;
+    color: #7a7a7a;
+}
+
+#termos:hover {
+    cursor: pointer;
+    color: #7a7a7a;
+}
+
+#copyright {
+    position: absolute;
+    color: #7a7a7a;
+    margin-left: 9em;
+    margin-top: 45em;
+}
+
+a {
+    text-decoration: none;
+    color: #7a7a7a;
+}
